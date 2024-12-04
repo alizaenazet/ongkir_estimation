@@ -1,5 +1,6 @@
 # Flutter Simple Cost Estimation App
-Baca Pada bab **Getting Started** dibawah untuk menajalankan project.
+Baca Pada bab [**Getting Started**](https://github.com/alizaenazet/ongkir_estimation/blob/main/README.md#getting-started) dibawah untuk menajalankan project.
+
 
 ## About
 
