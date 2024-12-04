@@ -12,7 +12,9 @@ The purpose of this project is to demonstrate the implementation of the MVC patt
 
 ## Getting Started
 
-To get started with this project, clone the repository and ensure you set the base URL and API key for RajaOngkir in the `.env` file or in `/shared/const.dart`.
+To get started with this project, clone the repository and ensure you set the base URL and API key for RajaOngkir in the [`.env`](https://github.com/alizaenazet/ongkir_estimation/blob/main/.env) file or in [`/shared/const.dart`](https://github.com/alizaenazet/ongkir_estimation/blob/main/lib/shared/const.dart).
+
+---
 
 A few resources to get you started if this is your first Flutter project:
 
