@@ -32,7 +32,7 @@ class NetworkApiServices implements BaseApiServices {
         uri,
         headers: <String, String>{
           'Content-Type': 'application/json',
-          'key': dotenv.get('RAJA_ONGKIR_API_KEY'),
+          'key': (Const.rajaOngkirApiKey ?? dotenv.get('RAJA_ONGKIR_BASE_URL')),
           'province': '5',
         },
       );
@@ -61,7 +61,7 @@ class NetworkApiServices implements BaseApiServices {
         uri,
         headers: <String, String>{
           'Content-Type': 'application/json',
-          'key': dotenv.get('RAJA_ONGKIR_API_KEY'),
+          'key': (Const.rajaOngkirApiKey ?? dotenv.get('RAJA_ONGKIR_BASE_URL')),
           'province': '5',
         },
         body: data != null ? jsonEncode(data) : null,
